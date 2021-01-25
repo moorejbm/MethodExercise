@@ -25,7 +25,7 @@ namespace MethodExercise
             // Favorite Animal: Walrus
             // Favorite Band: The Beatles
 
-            Console.WriteLine(" hello what is your first name?");
+            Console.WriteLine("Hello what is your first name?");
             var username = Console.ReadLine();
 
             Console.WriteLine($"Hi, {username}. What is your favorite color?");
@@ -36,8 +36,9 @@ namespace MethodExercise
 
             Console.WriteLine("Great! Now, what is your favorite band?");
             var band = Console.ReadLine();
-
+            Console.WriteLine('\n');
             Console.WriteLine($"Thanks, {username}!  Here is your profile");
+            
             Console.WriteLine("__________________________________");
 
             Console.WriteLine($"Name: {username}");
@@ -45,6 +46,7 @@ namespace MethodExercise
             Console.WriteLine($"Favorite Collor: {animal}");
             Console.WriteLine($"Favorite Band: {band}");
 
+            Console.WriteLine('\n');
             Console.WriteLine("Give me a number to add");
             int num1 = int.Parse(Console.ReadLine());
 
@@ -54,6 +56,7 @@ namespace MethodExercise
             int sum = Sum(num1, num2);
             Console.WriteLine($"The sum is: {sum}");
 
+            Console.WriteLine('\n');
             Console.WriteLine("Give me a number to multiply");
             int num3 = int.Parse(Console.ReadLine());
 
