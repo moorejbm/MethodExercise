@@ -23,6 +23,14 @@ namespace MethodExercise
 
             Console.WriteLine("Great! Now, what is your favorite band?");
             var band = Console.ReadLine();
+
+            Console.WriteLine($"Thanks, {userName}!  Here is your profile");
+            Console.WriteLine("__________________________________");
+
+            Console.WriteLine($"Name: {userName}");
+            Console.WriteLine($"Favorite Anamal: {color}");
+            Console.WriteLine($"Favorite Collor: {animal}");
+            Console.WriteLine($"Favorite Band: {band}");
         }
     }
 }
