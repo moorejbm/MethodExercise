@@ -10,9 +10,9 @@ namespace MethodExercise
             return answer;
         }
 
-        public static int Multiply(int num1, int num2, int num3)
+        public static int Multiply(int num3, int num4, int num5)
         {
-            return num1 * num2 * num3;
+            return num3 * num4 * num5;
         }
         static void Main(string[] args)
         {
@@ -55,15 +55,15 @@ namespace MethodExercise
             Console.WriteLine($"The sum is: {sum}");
 
             Console.WriteLine("Give me a number to multiply");
-            num1 = int.Parse(Console.ReadLine());
+            int num3 = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Give me a number to multiply to the first one");
-            num2 = int.Parse(Console.ReadLine());
+            int num4 = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Give me a number to multiply to the second one");
-            int num3  = int.Parse(Console.ReadLine());
+            int num5  = int.Parse(Console.ReadLine());
 
-            int multiply = Multiply(num1, num2, num3);
+            int multiply = Multiply(num3, num4, num5);
             Console.WriteLine($"The total is: {multiply}");
 
         }
