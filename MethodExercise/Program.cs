@@ -3,8 +3,13 @@
 namespace MethodExercise
 {
     class Program
-    { 
-        public static int Sum(int num1, int num2)
+    {
+
+            
+
+
+
+public static int Sum(int num1, int num2)
         {
             var answer = num1 + num2;
             return answer;
@@ -14,16 +19,45 @@ namespace MethodExercise
         {
             return num3 * num4 * num5;
         }
+
+        public static string Question(string question)
+        {
+            Console.WriteLine(question);
+
+            return Console.ReadLine();
+        }
+
+
+
+
         static void Main(string[] args)
         {
+               
             var amountOfCars = Sum(2, 6);
             //var blah = Multiply(60, 2, 4);
 
-            //---------------------Exercise 1 
+            //---------------------Exercise 1 & 2 -------------
             // Name: Michael
             // Favorite Color: Blue
             // Favorite Animal: Walrus
             // Favorite Band: The Beatles
+
+            String answer;
+
+            answer = yes;
+
+            Question("Are you ready to begain your survay?");
+
+            if (answer);
+            {
+                Console.WriteLine($"Great lets begain");
+            }
+            else
+            {
+                Console.WriteLine("OK, Let us know when you are ready to begain.");
+            }
+
+
 
             Console.WriteLine("Hello what is your first name?");
             var username = Console.ReadLine();
@@ -31,7 +65,7 @@ namespace MethodExercise
             Console.WriteLine($"Hi, {username}. What is your favorite color?");
             var color = Console.ReadLine();
 
-            Console.WriteLine($" {color} is an awsom color! What is your favorite animal?");
+            Console.WriteLine($"{color} is an awesome color! What is your favorite animal?");
             var animal = Console.ReadLine();
 
             Console.WriteLine("Great! Now, what is your favorite band?");
@@ -72,9 +106,7 @@ namespace MethodExercise
         }
 
 
-            //---------------------Exercise 2
-
-
+           
 
         }
     }
