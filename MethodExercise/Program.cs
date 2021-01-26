@@ -4,8 +4,7 @@ namespace MethodExercise
 {
     class Program
     {
-
-            
+  
 
 
 
@@ -42,13 +41,11 @@ public static int Sum(int num1, int num2)
             // Favorite Animal: Walrus
             // Favorite Band: The Beatles
 
-            String answer;
-
-            answer = yes;
+            bool answer = true;
 
             Question("Are you ready to begain your survay?");
 
-            if (answer);
+            if (answer = true)
             {
                 Console.WriteLine($"Great lets begain");
             }
@@ -56,7 +53,6 @@ public static int Sum(int num1, int num2)
             {
                 Console.WriteLine("OK, Let us know when you are ready to begain.");
             }
-
 
 
             Console.WriteLine("Hello what is your first name?");
